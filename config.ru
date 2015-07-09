@@ -2,7 +2,7 @@ require 'dashing'
 
 configure do
   set :auth_token, '20t8jq[[spo12wefjkl;w'
-  set :default_dashboard, 'ops-metrics'
+  set :default_dashboard, 'default'
 
   helpers do
     def protected!
